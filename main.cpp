@@ -7,8 +7,7 @@ int main(int argc, char** argv) {
 	printf("NOTAS ENTRE 80 Y 89 TENDRAN 20% DE DESCUENTO \n");
 	printf("NOTAS ENTRE 70 Y 79 TENDRAN 15% DE DESCUENTO \n");
 	printf("NOTAS ENTRE 61 Y 69 TENDRAN 10% DE DESCUENTO \n");
-	printf("NOTAS MENORES A 61 NO TENDRAN DESCUENTO \n");
-	printf("\n");
+	printf("NOTAS MENORES A 61 NO TENDRAN DESCUENTO \n\n");	
 	printf("INGRESE LA NOTA FINAL DEL ESTUDIANTE: ");scanf("%f", &NotFin);
 	if (NotFin>=90){
 		Desc=0.25;
